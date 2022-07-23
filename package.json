@@ -1,0 +1,22 @@
+{
+  "name": "example-testdata-ts",
+  "version": "0.0.1",
+  "description": "Testdata example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odinodin/example-testdata-ts"
+  },
+  "author": "Odin Standal",
+  "license": "MIT",
+  "scripts": {
+    "prepublishOnly": "yarn run build",
+    "build": "yarn run clean && tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "typescript": "4.6.3",
+    "@types/jest": "27.4.1",
+    "ts-jest": "27.1.4",
+    "jest": "27.5.1"
+  }
+}
